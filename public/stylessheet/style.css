@@ -1,0 +1,200 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+    height: 100vh;
+    background: #f0f0f0;
+}
+
+/* css cho phan Header */
+.header{
+	width: 100%;
+	height: 53px;
+	background: #fed700;
+    min-width: 1024px;
+    margin-bottom: 10px;
+}
+
+.contentHeader{
+	width: 85%;
+	margin: 0 auto;
+    height: 100%;
+    min-width: 750px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+	height: 100%;
+    width: 35%;
+    background: black;
+    position: relative;
+	max-width: 430px;
+	min-width: 430px;
+}
+.avartar{
+	height: 29px;
+    width: 30px;
+    background: url(../image/icon.png);
+    background-size: 535px 100px;
+    position: absolute;
+    top: 12px;
+    left: 13px;
+}
+.title{
+	height: 30px;
+    width: 121px;
+    background: url(../image/icon.png);
+    background-size: 490px 117px;
+    background-position-x: -31px;
+    position: absolute;
+    top: 8px;
+    left: 50px;
+}
+.search{
+	position: absolute;
+    height: 35px;
+    width: 201px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    top: 7px;
+    left: 190px;
+    padding-left: 18px;
+    outline: none;
+}
+.iconsearch{
+	height: 35px;
+    width: 35px;
+    background: url(../image/icon.png);
+    background-position-x: -183px;
+    background-size: 586px 116px;
+    position: absolute;
+	top: 14px;
+    right: 26px;
+}
+
+.navbar{
+    height: 100%;
+    width: 66%;
+    max-width: 770px;
+    min-width: 770px;
+    margin-left: 20px;
+}
+
+.items{
+	width: 85px;
+	height: 53px;
+	position: relative;
+	cursor: pointer;
+	float: left;
+}
+
+.items:hover{
+	background-color: white;
+}
+.product{
+	position: absolute;
+	top :2px;
+	left: 19px;
+	background: url(../image/icon.png);
+}
+.phone{
+	background-position-x: -211px;
+	background-size: 586px 116px;
+	width: 33px;
+	height: 35px;
+}
+.tablet{
+	width: 40px;
+    height: 35px;
+    background-position-x: -244px;
+    background-size: 586px 116px;
+}
+
+.Laptop{
+	width: 49px;
+    height: 35px;
+    background-position-x: -286px;
+    background-size: 586px 116px;
+}
+
+.phukien{
+	width: 36px;
+    height: 35px;
+    background-position-x: -333px;
+    background-size: 586px 116px;
+}
+.watch{
+	width: 36px;
+    height: 35px;
+    background-position-x: -439px;
+    background-size: 586px 116px;
+}
+.older{
+	width: 47px;
+    height: 35px;
+    background-position-x: -368px;
+    background-size: 586px 116px;
+}
+.technology{
+    width: 43px;
+    height: 35px;
+    background-position-x: -509px;
+    background-size: 586px 116px;
+}
+.help{
+    width: 38px;
+    height: 35px;
+    background-position-x: -475px;
+    background-size: 586px 116px;
+}
+.items  a{
+	position: absolute;
+	bottom: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+	font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+.sim{
+    width: 30px;
+    height: 35px;
+    background-position-x: -412px;
+    background-size: 586px 116px;
+}
+
+.aphone{
+    left: 5px;
+}
+.atablet{
+    left: 18px;
+}
+.alaptop{
+    left: 21px;
+}
+.aphukien, .awatch, .aolder{
+    left: 10px;
+}
+.ahelp{
+    left: 16px;
+}
+.atechnology{
+    left: 5px;
+}
+.asim{
+    left: 12px;
+}
+
+
+/* CSS FOR BODY */
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    height: 800px;
+    background: rgb(248, 247, 247);
+}
