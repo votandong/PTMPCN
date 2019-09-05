@@ -1,11 +1,11 @@
 const btnScroll = document.querySelector(".vedau");
 
 window.addEventListener("scroll", ()=>{
-    if(window.scrollY < 20){
-        btnScroll.classList.add("anScroll");
+    if(window.scrollY > 50){
+        btnScroll.classList.remove("anScroll");
     }
     else{
-        btnScroll.classList.remove("anScroll");
+        btnScroll.classList.add("anScroll");
     }
 })
 
