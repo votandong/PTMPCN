@@ -524,7 +524,7 @@ html, body{
 .congnhan{
     width: 100px;
     height: 28px;
-    background: url(../image/icon.png);
+    background: url("../image/icon.png");
     background-position-x: 910px;
     background-position-y: 44px;
     background-size: 456px;
@@ -546,7 +546,7 @@ html, body{
 .icon-fb{
     width: 14px;
     height: 14px;
-    background: url(/public/image/icon.png);
+    background: url("../image/icon.png");
     background-position-x: 1361px;
     background-position-y: 336px;
     position: absolute;
@@ -565,7 +565,7 @@ html, body{
 .icon-ytb{
     width: 14px;
     height: 14px;
-    background: url(/public/image/icon.png);
+    background: url("../image/icon.png");
     background-position-x: 1344px;
     background-position-y: 336px;
     position: absolute;
@@ -584,7 +584,7 @@ html, body{
  .logo-dmx{
     width: 100px;
     height: 20px;
-    background: url(/public/image/icon.png);
+    background: url("../image/icon.png");
     background-position-y: 66px;
     background-position-x: -32px;
     background-size: 462px;

@@ -161,6 +161,6 @@
         </div>
     </div>
     <!-- Done Footer -->
-    <script src="./public/javascript/script.js"></script>
+    <script src="./public/javascript/script.js"></script> 
 </body>
 </html>
