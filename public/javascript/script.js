@@ -1,4 +1,4 @@
-const btnScroll = document.querySelector(".vedau");
+var btnScroll = document.querySelector(".vedau");
 
 window.addEventListener("scroll", ()=>{
     if(window.scrollY > 50){
@@ -26,7 +26,6 @@ btnScroll.addEventListener("click",scrollToTop);
 // chuyen dong slide
 var slides = document.querySelectorAll(".slide ul li");
 var infoslides = document.querySelectorAll(".infosile ul li a");
-console.log(infoslides);
 
 function chuyenDong(){
     setInterval(()=>{

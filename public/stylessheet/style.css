@@ -72,6 +72,7 @@ html, body{
 	top: 14px;
     right: 26px;
     border: none;
+    outline: none;
 }
 
 .navbar{
@@ -306,11 +307,11 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 0px;
     cursor: pointer;
 }
 .infosile ul li:hover{
-    background: #efe6e6;
+    background: #d8e8b7;
 }
 .infosile ul li >a {
     text-decoration: none;

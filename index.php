@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="./public/stylessheet/style.css">
 </head>
 <body>
-     <!-- Create Header -->
-    <div class="header">
+<!-- Create Header -->
+<div class="header">
         <div class="contentHeader">
-            <form action="" method="GET">
+            <form action="view/timkiem.php" method="GET">
                 <div class="logo">
-                    <div class="avartar"></div>
-                    <div class="title"></div>
+                    <a href="/PTMPCN/index.php" class="avartar"></a>
+                    <a href="/PTMPCN/index.php" class="title"></a>
                     <input type="text" placeholder="Bạn tìm gì ..." name ="Timkiem" class="search" >
                     <button class="iconsearch"></button>
                 </div>
@@ -23,11 +23,11 @@
             <div class="navbar">
                 <div class="items">
                     <div class="product phone"></div>
-                    <a class="aphone" href="">Điện thoại</a>
+                    <a class="aphone" href="view/dienthoai.php">Điện thoại</a>
                 </div>
                 <div class="items">
                     <div class="product tablet"></div>
-                    <a class="atablet" href="">Tablet</a>
+                    <a class="atablet" href="view/tablet.php">Tablet</a>
                 </div>
                 <div class="items">
                     <div class="product Laptop"></div>
@@ -60,15 +60,15 @@
             </div>
         </div>
     </div>
-    <!-- Done Header -->
+<!-- Done Header -->
 
-    <!-- Nút scroll to top -->
+<!-- Nút scroll to top -->
     <div class="vedau">
         <a class="scroll" title="Về đầu"></a>
     </div>            
-    <!-- Done nút scroll to top -->
-    <!-- Create body -->
-    <div class="container">
+<!-- Done nút scroll to top -->
+<!-- Create body -->
+<div class="container"> 
         <div class="advant">
             <div class="slide-advant">
                 <div class="slidegraper">
@@ -124,7 +124,6 @@
         </div>
     </div>
     <!-- Dont Body -->
-
     <!-- Create Footer -->
     <div class="footer">
         <div class="rowfood1">
@@ -161,6 +160,7 @@
         </div>
     </div>
     <!-- Done Footer -->
-    <script src="./public/javascript/script.js"></script> 
+</body>
+<script src="./public/javascript/script.js"></script> 
 </body>
 </html>
