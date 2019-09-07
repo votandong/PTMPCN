@@ -8,6 +8,7 @@
                 <li><a href="">Hướng dẫn mua online</a></li>
                 <li><a href="">Thông tin cửa hàng</a></li>
             </ul>
+            //tùng óc chó
             <ul class="ul2">
                 <li><a href="">Giới thiệu công ty</a></li>
                 <li><a href="">Tuyển dụng</a></li>
